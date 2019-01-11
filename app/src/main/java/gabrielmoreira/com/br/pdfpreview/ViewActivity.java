@@ -31,6 +31,7 @@ public class ViewActivity extends AppCompatActivity {
 
             String viewType = getIntent().getStringExtra("ViewType");
 
+
             if (viewType != null || !TextUtils.isEmpty(viewType))
             {
                 if (viewType.equals("assets"))
